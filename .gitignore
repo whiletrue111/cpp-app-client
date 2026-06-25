@@ -1,0 +1,38 @@
+# CMake build output
+/build/
+/build-*/
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+install_manifest.txt
+_deps/
+
+# Compiled artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Local CMake/IDE settings
+CMakeUserPresets.json
+.idea/
+.vscode/
+*.user
+*.swp
+
+# Runtime and OS files
+*.log
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
